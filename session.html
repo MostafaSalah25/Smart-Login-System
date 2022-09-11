@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <link rel="stylesheet" href="css/session_style.css">
+     
+    </head>
+    <body style="background-color: midnightblue;">
+      
+        <!-- smart login  -->
+
+        <div class=" smartSystem py-5 mt-5 w-50 m-auto  shadow-lg text-center " style="background-color: dodgerblue;" >
+            <h1 class="mt-5">Smart Login System</h1>
+
+            <input class=" inputName form-control w-75 m-auto my-4 d-none" type="text" placeholder="Enter your name">
+            <input class=" inputEmail form-control w-75 m-auto my-4" type="email" placeholder="Enter your email">
+            <input class=" inputPass form-control w-75 m-auto " type="password" placeholder="Enter your password">
+
+            <h5 class="textError text-danger mt-4 d-none ">Incorrect Email or Password ! </h5>
+            <h5 class=" textError2 text-danger mt-4 d-none">All inputs is required! </h5>
+            <h5 class=" textError3 text-danger mt-4 d-none">This Email Is Already Exists</h5>
+            <h4 class="  text-success mt-4 d-none">Your Register Is Done </h4>
+
+            <div class="parentSignIn" >
+                <button class=" buttonSignIn btn btn-outline-primary w-75 my-4 text-white  " >Login</button>
+            </div>
+            
+
+            <p class="fw-bold">Don’t have an account?<span> <button class="btn buttonSignUp" >Sign Up</button></span></p>
+        </div>
+
+        <!-- home  -->
+
+        <div style="background-color: #24353F ;" class=" home w-100 h-100 d-none ">
+            <div style="background-color: #24353F;" class=" shadow-lg pt-4 d-flex justify-content-between  ">
+                <h4 class="text-white ms-5  mb-2 " >SMART LOGIN</h4>
+                <button class=" logOut btn btn-outline-danger me-5 mb-2 " >Log Out</button>
+            </div>
+
+            <div style="background-color: #24353F;"  class=" child position-relative shadow-lg d-flex justify-content-around align-items-center ">
+
+                <h1 class=" item text-white text-center  " >Welcome  <span class="welcome text-danger   "> </span> </h1>
+                <div class="item2" >
+                    <i class="fas fa-kiss-wink-heart fs-1 firstI   "></i>
+                    <i class="fas fa-heart fs-1  ps-2 text-red secondI"></i>
+                </div>
+                
+            </div>
+
+            
+        </div>
+        
+
+     
+        <!-- <script src="js/bootstrap.bundle.min.js" ></script>  -->
+        <script src="js/session_js.js" ></script>
+
+    </body>
+    
+</html>

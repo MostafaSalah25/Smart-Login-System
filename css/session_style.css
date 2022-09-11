@@ -1,0 +1,60 @@
+span button:hover{
+    color: crimson !important;
+    text-decoration: underline;
+}
+
+.child{
+    width: 70%;
+    height: 30%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.welcome{
+    text-transform: capitalize; 
+}
+
+.item{
+    margin-left: 20%;
+}
+.item2{
+    margin-right: 15%;
+}
+
+
+/* .welcome{
+    background-color: crimson ;
+    width: 24% ;
+    height: auto;
+    animation: userName 4s 1s infinite  ;
+    border-radius: 5px ;
+}
+
+@keyframes userName{
+
+    30%  { content: "" ; background-color: darkcyan; }
+    60%  { content: "" ; background-color: crimson; }
+    90%  { content: "" ; background-color: crimson; }
+
+}  */
+
+
+.firstI{
+    color: wheat;
+    animation: icon1 5s 1s infinite alternate;
+}
+.secondI{
+    color: red;
+    animation: icon2 5s 1s infinite alternate ;
+}
+
+@keyframes icon1 {
+
+    50% { color: red ; }
+
+}
+@keyframes icon2 {
+
+    50% { color: white ;  }
+  
+}
